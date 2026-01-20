@@ -45,6 +45,14 @@ Sincronização: Envio e recebimento de atualizações de código.
 | git remote set-url [id] [URL] | Atualiza o endereço (URL) de um repositório remoto já existente. |
 | git status | Mostra quais arquivos foram modificados e o que está pronto para o commit. |
 | git log | Exibe o histórico de todos os commits realizados no projeto. |
+| git remote | Visualizar os repositórios remotos linkados com o repositório local |
+| git push origin main | Envia os seus commits do repositório local (seu computador) para o repositório remoto (GitHub) na ramificação principal (main). |
+| git pull origin main | Busca as alterações que estão no repositório remoto e as mescla automaticamente no seu repositório local. É o comando usado para manter seu código atualizado com o que está no GitHub. |
+| git clone | Baixar uma cópia de um repositório hospedado no GitHub para o seu computador |
+
+### 🔄 Sincronização com GitHub
+* `git push origin main`: Sobe meu trabalho para o servidor.
+* `git pull origin main`: Traz as novidades do servidor para minha máquina.
 
 
 ## 🛠️ Como rodar o projeto
