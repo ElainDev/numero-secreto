@@ -49,6 +49,8 @@ Sincronização: Envio e recebimento de atualizações de código.
 | git push origin main | Envia os seus commits do repositório local (seu computador) para o repositório remoto (GitHub) na ramificação principal (main). |
 | git pull origin main | Busca as alterações que estão no repositório remoto e as mescla automaticamente no seu repositório local. É o comando usado para manter seu código atualizado com o que está no GitHub. |
 | git clone | Baixar uma cópia de um repositório hospedado no GitHub para o seu computador |
+| git revert <ID do commit> | desfazer alterações em um commit, é como um Ctrl + z |
+| git reset --hard <ID do commit> | Desfazer (apagar) o commit e também apagar a mudança no código. 🚨OBS: o ID do commit tem que ser o penultimo, o antes que vc acabou da dar commit |
 
 ### 🔄 Sincronização com GitHub
 * `git push origin main`: Sobe meu trabalho para o servidor.
